@@ -28,7 +28,7 @@ const seasonsData = {
             // Previous Race Results
             races: [
                 {
-                    name: "Corrida Classificatória 1",
+                    name: "Classificatória 1 - Porto Alegre",
                     results: [
                         { position: 1, name: "Alex Rodriguez", points: 25 },
                         { position: 2, name: "Maria Silva", points: 22 },
@@ -38,7 +38,7 @@ const seasonsData = {
                     ]
                 },
                 {
-                    name: "Corrida Classificatória 2",
+                    name: "Classificatória 2 - São Leopoldo",
                     results: [
                         { position: 1, name: "Maria Silva", points: 25 },
                         { position: 2, name: "Alex Rodriguez", points: 22 },
@@ -48,17 +48,7 @@ const seasonsData = {
                     ]
                 },
                 {
-                    name: "Corrida Semifinal",
-                    results: [
-                        { position: 1, name: "Alex Rodriguez", points: 30 },
-                        { position: 2, name: "João Chen", points: 26 },
-                        { position: 3, name: "Maria Silva", points: 24 },
-                        { position: 4, name: "Sarah Johnson", points: 22 },
-                        { position: 5, name: "Miguel Thompson", points: 20 }
-                    ]
-                },
-                {
-                    name: "Corrida Final",
+                    name: "Final - Rato do Rato",
                     results: [
                         { position: 1, name: "Alex Rodriguez", points: 35 },
                         { position: 2, name: "Maria Silva", points: 32 },
