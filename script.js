@@ -28,7 +28,7 @@ const seasonsData = {
             // Previous Race Results
             races: [
                 {
-                    name: "Classificatória 1 - Porto Alegre",
+                    name: "Classificatória 1 - Porto Alegre!",
                     results: [
                         { position: 1, name: "Alex Rodriguez", points: 25 },
                         { position: 2, name: "Maria Silva", points: 22 },
@@ -38,7 +38,7 @@ const seasonsData = {
                     ]
                 },
                 {
-                    name: "Classificatória 2 - São Leopoldo",
+                    name: "Classificatória 2 - São Leopoldo!",
                     results: [
                         { position: 1, name: "Maria Silva", points: 25 },
                         { position: 2, name: "Alex Rodriguez", points: 22 },
