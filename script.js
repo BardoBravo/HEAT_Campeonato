@@ -59,19 +59,19 @@ const seasonsData = {
 
             // All Participants
             allPlayers: [
-                { name: "Yuri B.", points: 5, photo: "images/alex.jpg", team: "Relâmpago Vermelho" },
+                { name: "Yuri B.", points: 5, photo: "images/yuri.png", team: "Relâmpago Vermelho" },
                 { name: "Ane", points: 7, photo: "images/maria.jpg", team: "Trovão Azul" },
-                { name: "Marco S.", points: 12, photo: "images/john.jpg", team: "Velocidade Verde" },
+                { name: "Marco S.", points: 12, photo: "images/marco.png", team: "Velocidade Verde" },
                 { name: "Rodrigo S.", points: 24, photo: "images/sarah.jpg", team: "Flash Amarelo" },
                 { name: "João A.", points: 16, photo: "images/mike.jpg", team: "Tempestade Roxa" },
-                { name: "Cristiano M.", points: 13, photo: "images/david.jpg", team: "Fogo Laranja" },
+                { name: "Cristiano M.", points: 13, photo: "images/cristiano.png", team: "Fogo Laranja" },
                 { name: "Fabiano D.", points: 12, photo: "images/fabiano.png", team: "Poder Rosa" },
-                { name: "Jovani A.", points: 21, photo: "images/james.jpg", team: "Sombra Negra" },
-                { name: "Moisés T.", points: 9, photo: "images/james.jpg", team: "Sombra Negra" },
-                { name: "André", points: 18, photo: "images/james.jpg", team: "Sombra Negra" },
-                { name: "Jhon C.", points: 4, photo: "images/james.jpg", team: "Sombra Negra" },
+                { name: "Jovani A.", points: 21, photo: "images/jovani.png", team: "Sombra Negra" },
+                { name: "Moisés T.", points: 9, photo: "images/moises.png", team: "Sombra Negra" },
+                { name: "André", points: 18, photo: "images/andre.png", team: "Sombra Negra" },
+                { name: "Jhon C.", points: 4, photo: "images/JhonC.png", team: "Sombra Negra" },
                 { name: "Cláudo R.", points: 11, photo: "images/claudio.png", team: "Sombra Negra" },
-                { name: "Rael", points: 4, photo: "images/james.jpg", team: "Sombra Negra" }
+                { name: "Rael", points: 4, photo: "images/rael.png", team: "Sombra Negra" }
 
             ],
 
