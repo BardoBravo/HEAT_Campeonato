@@ -7,96 +7,155 @@ const seasonsData = {
             winners: [
                 {
                     position: 1,
-                    name: "Alex Rodriguez",
-                    points: 95,
-                    photo: "images/player1.jpg"
+                    name: "???",
+                    points: 0,
+                    photo: "images/senna.jpg"
                 },
                 {
                     position: 2,
-                    name: "Maria Silva",
-                    points: 87,
-                    photo: "images/player2.jpg"
+                    name: "???",
+                    points: 0,
+                    photo: "images/senna.jpg"
                 },
                 {
                     position: 3,
-                    name: "João Chen",
-                    points: 82,
-                    photo: "images/player3.jpg"
+                    name: "??",
+                    points: 0,
+                    photo: "images/senna.jpg"
                 }
             ],
 
             // Previous Race Results
             races: [
                 {
-                    name: "Classificatória 1 - Porto Alegre!",
+                    name: "Classificatória 1 - Hex - Porto Alegre!",
                     results: [
-                        { position: 1, name: "Alex Rodriguez", points: 25 },
-                        { position: 2, name: "Maria Silva", points: 22 },
-                        { position: 3, name: "João Chen", points: 20 },
-                        { position: 4, name: "Sarah Johnson", points: 18 },
-                        { position: 5, name: "Miguel Thompson", points: 16 }
+                        { position: 1, name: "Rodrigo S.", points: 24 },
+                        { position: 2, name: "João A.", points: 16 },
+                        { position: 3, name: "Cristiano M.", points: 13 },
+                        { position: 4, name: "Marco S.", points: 12 }
                     ]
                 },
                 {
-                    name: "Classificatória 2 - São Leopoldo!",
+                    name: "Classificatória 2 - Taverna - São Leopoldo!",
                     results: [
-                        { position: 1, name: "Maria Silva", points: 25 },
-                        { position: 2, name: "Alex Rodriguez", points: 22 },
-                        { position: 3, name: "David Wilson", points: 20 },
-                        { position: 4, name: "João Chen", points: 18 },
-                        { position: 5, name: "Lisa Brown", points: 16 }
+                        { position: 1, name: "Jovani A.", points: 21 },
+                        { position: 2, name: "André", points: 18 },
+                        { position: 3, name: "Fabiano D.", points: 12 },
+                        { position: 4, name: "Cláudio R.", points: 11 }
                     ]
                 },
                 {
-                    name: "Final - Rato do Rato",
+                    name: "Final - Toca do Rato - Ivoti",
                     results: [
-                        { position: 1, name: "Alex Rodriguez", points: 35 },
-                        { position: 2, name: "Maria Silva", points: 32 },
-                        { position: 3, name: "João Chen", points: 30 },
-                        { position: 4, name: "David Wilson", points: 28 },
-                        { position: 5, name: "Sarah Johnson", points: 26 }
+                        { position: 1, name: "???", points: 0 },
+                        { position: 2, name: "???", points: 0 },
+                        { position: 3, name: "???", points: 0 },
+                        { position: 4, name: "???", points: 0 },
+                        { position: 5, name: "???", points: 0 }
                     ]
                 }
             ],
 
             // All Participants
             allPlayers: [
-                { name: "Alex Rodriguez", points: 95, photo: "images/alex.jpg", team: "Relâmpago Vermelho" },
-                { name: "Maria Silva", points: 87, photo: "images/maria.jpg", team: "Trovão Azul" },
-                { name: "João Chen", points: 82, photo: "images/john.jpg", team: "Velocidade Verde" },
-                { name: "Sarah Johnson", points: 76, photo: "images/sarah.jpg", team: "Flash Amarelo" },
-                { name: "Miguel Thompson", points: 74, photo: "images/mike.jpg", team: "Tempestade Roxa" },
-                { name: "David Wilson", points: 72, photo: "images/david.jpg", team: "Fogo Laranja" },
-                { name: "Lisa Brown", points: 68, photo: "images/lisa.jpg", team: "Poder Rosa" },
-                { name: "Tiago Davis", points: 65, photo: "images/james.jpg", team: "Sombra Negra" }
+                { name: "Yuri B.", points: 5, photo: "images/alex.jpg", team: "Relâmpago Vermelho" },
+                { name: "Ane", points: 7, photo: "images/maria.jpg", team: "Trovão Azul" },
+                { name: "Marco S.", points: 12, photo: "images/john.jpg", team: "Velocidade Verde" },
+                { name: "Rodrigo S.", points: 24, photo: "images/sarah.jpg", team: "Flash Amarelo" },
+                { name: "João A.", points: 16, photo: "images/mike.jpg", team: "Tempestade Roxa" },
+                { name: "Cristiano M.", points: 13, photo: "images/david.jpg", team: "Fogo Laranja" },
+                { name: "Fabiano D.", points: 12, photo: "images/fabiano.png", team: "Poder Rosa" },
+                { name: "Jovani A.", points: 21, photo: "images/james.jpg", team: "Sombra Negra" },
+                { name: "Moisés T.", points: 9, photo: "images/james.jpg", team: "Sombra Negra" },
+                { name: "André", points: 18, photo: "images/james.jpg", team: "Sombra Negra" },
+                { name: "Jhon C.", points: 4, photo: "images/james.jpg", team: "Sombra Negra" },
+                { name: "Cláudo R.", points: 11, photo: "images/claudio.png", team: "Sombra Negra" },
+                { name: "Rael", points: 4, photo: "images/james.jpg", team: "Sombra Negra" }
+
             ],
 
             // Event Gallery Photos
             eventPhotos: [
                 {
-                    src: "images/event1.jpg",
+                    src: "images/1.jpeg",
                     alt: "Cerimônia de Abertura do Campeonato",
                     caption: "Cerimônia de abertura com todos os participantes"
                 },
                 {
-                    src: "images/event2.jpg",
-                    alt: "Corrida em Ação",
-                    caption: "Ação intensa durante as classificatórias"
+                    src: "images/2.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
                 },
                 {
-                    src: "images/event3.jpg",
-                    alt: "Celebração no Pódio",
-                    caption: "Vencedores celebrando no pódio"
+                    src: "images/3.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
                 },
                 {
-                    src: "images/event4.jpg",
-                    alt: "Estratégia da Equipe",
-                    caption: "Equipes discutindo estratégia entre corridas"
+                    src: "images/4.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
                 },
                 {
-                    src: "images/event5.jpg",
-                    alt: "Corrida Final",
-                    caption: "O momento emocionante da corrida final"
+                    src: "images/5.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/6.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/7.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/8.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/9.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/9.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/10.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/11.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/12.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/13.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/14.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/15.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
                 }
             ]
         }
