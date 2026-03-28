@@ -62,7 +62,7 @@ const seasonsData = {
                 { name: "Yuri B.", points: 5, photo: "images/yuri.png", team: "Porto Alegre" },
                 { name: "Ane", points: 7, photo: "images/maria.jpg", team: "Porto Alegre" },
                 { name: "Marco S.", points: 12, photo: "images/marco.png", team: "Porto Alegre" },
-                { name: "Rodrigo S.", points: 24, photo: "images/sarah.jpg", team: "POrto Alegre" },
+                { name: "Rodrigo S.", points: 24, photo: "images/sarah.jpg", team: "Porto Alegre" },
                 { name: "João A.", points: 16, photo: "images/mike.jpg", team: "Porto Alegre" },
                 { name: "Cristiano M.", points: 13, photo: "images/cristiano.png", team: "Porto Alegre ?" },
                 { name: "Fabiano D.", points: 12, photo: "images/fabiano.png", team: "Vale dos Sinos" },
