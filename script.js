@@ -7,21 +7,21 @@ const seasonsData = {
             winners: [
                 {
                     position: 1,
-                    name: "???",
-                    points: 0,
-                    photo: "images/senna.jpg"
+                    name: "João A.",
+                    points: 19,
+                    photo: "images/joaoa.png"
                 },
                 {
                     position: 2,
-                    name: "???",
-                    points: 0,
-                    photo: "images/senna.jpg"
+                    name: "Fabiano D.",
+                    points: 15,
+                    photo: "images/fabiano.png"
                 },
                 {
                     position: 3,
-                    name: "??",
-                    points: 0,
-                    photo: "images/senna.jpg"
+                    name: "Cristiano M.",
+                    points: 13,
+                    photo: "images/cristiano.png"
                 }
             ],
 
@@ -48,11 +48,14 @@ const seasonsData = {
                 {
                     name: "Final - Toca do Rato - Ivoti",
                     results: [
-                        { position: 1, name: "???", points: 0 },
-                        { position: 2, name: "???", points: 0 },
-                        { position: 3, name: "???", points: 0 },
-                        { position: 4, name: "???", points: 0 },
-                        { position: 5, name: "???", points: 0 }
+                        { position: 1, name: "João A.", points: 19 },
+                        { position: 2, name: "Fabiano D.", points: 15 },
+                        { position: 3, name: "Cristiano M.", points: 13 },
+                        { position: 4, name: "Rodrigo L.", points: 12 },
+                        { position: 5, name: "Jovani A.", points: 10 },
+                        { position: 6, name: "Jhon C.", points: 4 },
+                        { position: 7, name: "André", points: 1 },
+                        { position: 8, name: "Cláudio", points: 1 }
                     ]
                 }
             ],
@@ -63,7 +66,7 @@ const seasonsData = {
                 { name: "Ane", points: 7, photo: "images/maria.jpg", team: "Porto Alegre" },
                 { name: "Marco S.", points: 12, photo: "images/marco.png", team: "Porto Alegre" },
                 { name: "Rodrigo S.", points: 24, photo: "images/sarah.jpg", team: "Porto Alegre" },
-                { name: "João A.", points: 16, photo: "images/mike.jpg", team: "Porto Alegre" },
+                { name: "João A.", points: 16, photo: "images/joaoa.png", team: "Porto Alegre" },
                 { name: "Cristiano M.", points: 13, photo: "images/cristiano.png", team: "Porto Alegre ?" },
                 { name: "Fabiano D.", points: 12, photo: "images/fabiano.png", team: "Vale dos Sinos" },
                 { name: "Jovani A.", points: 21, photo: "images/jovani.png", team: "Vale dos Sinos" },
@@ -154,6 +157,21 @@ const seasonsData = {
                 },
                 {
                     src: "images/15.jpeg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/16.jpg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/17.jpg",
+                    alt: "Cerimônia de Abertura do Campeonato",
+                    caption: "Cerimônia de abertura com todos os participantes"
+                },
+                {
+                    src: "images/18.jpg",
                     alt: "Cerimônia de Abertura do Campeonato",
                     caption: "Cerimônia de abertura com todos os participantes"
                 }
